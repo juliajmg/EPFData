@@ -2,6 +2,8 @@ setwd("~/Documents/DatosEPF/FicherosCSV")
 library(dplyr)
 library(tidyr)
 
+##This is in GIT 
+
 ##### Variable declarations 
 lista <- list.files(pattern = "Fichero *")
 lista.hogar <- lista[grep("Hogar", lista)]
